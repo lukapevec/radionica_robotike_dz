@@ -27,8 +27,8 @@ class TurtlesimMouseTracker:
         self.turtle_windows_coord_in_screen = Point()
         
         # By default, this is the position on the screen where turtlesim is created.
-        self.turtle_windows_coord_in_screen.x = 29
-        self.turtle_windows_coord_in_screen.y = 706
+        self.turtle_windows_coord_in_screen.x = 554
+        self.turtle_windows_coord_in_screen.y = 695
 
     def turtle_pose_callback(self, msg):
         self.pose = msg
